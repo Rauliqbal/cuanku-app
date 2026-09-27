@@ -47,6 +47,8 @@ dependencies {
     testImplementation(libs.junit)
     implementation("androidx.navigation:navigation-compose:2.10.2")
     implementation("androidx.room:room-runtime:2.6.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.9.4")
     annotationProcessor("androidx.room:room-compiler:2.6.1")
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)

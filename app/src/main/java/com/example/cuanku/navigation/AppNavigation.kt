@@ -4,7 +4,6 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.cuanku.presentation.dashboard.DashboardScreen
 
 @Composable
 fun AppNavigation() {
@@ -16,6 +15,9 @@ fun AppNavigation() {
   ) {
     composable("dashboard") {
       DashboardScreen()
+    }
+    composable("account") {
+//      AccountScreen()
     }
     composable("trasanctions") {
 
